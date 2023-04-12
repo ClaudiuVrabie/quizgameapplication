@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>First Question</title>
+</head>
+<body>
+<strong>
+<h2>Which is the biggest country on earth?</h2>
+    </strong>
+<button class="option-btn" type="button" onclick="window.location.href='/answer/firstAnswerValidation';">Russia</button>
+<button class="option-btn" type="button" onclick="window.location.href='/answer/answerError';">Canada </button>
+<button class="option-btn" type="button" onclick="window.location.href='/answer/answerError';">China</button>
+<button  class="next-btn" type="button" onclick="window.location.href='/question/viewSecondQuestion';">Next</button>
+
+<style>
+    body {
+        background: linear-gradient(to right, rgba(193, 199, 203, 0.35), #afb5c0);
+        font-family: 'Roboto', sans-serif;
+    }
+    h2 {
+            font-size: 3em;
+            text-align: center;
+        }
+         .option-btn {
+            display: block;
+            margin: 0 auto 1em;
+            width: 50%;
+            font-size: 2em;
+            padding: 0.5em 1em;
+            border-radius: 5px;
+            background-color: #fff;
+            color: #000;
+            border: none;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: box-shadow 0.3s ease-in-out;
+        }
+
+        .option-btn:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .option-btn:active {
+            box-shadow: none;
+            transform: translateY(2px);
+        }
+           .next-btn {
+        display: block;
+        margin: 1em auto;
+        width: 25%;
+        font-size: 1.5em;
+        padding: 0.5em 1em;
+        border-radius: 5px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        transition: box-shadow 0.3s ease-in-out;
+    }
+
+    .next-btn:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .next-btn:active {
+        box-shadow: none;
+        transform: translateY(2px);
+    }
+</style>
+</body>
+</html>
